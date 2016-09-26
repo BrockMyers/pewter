@@ -14,13 +14,16 @@ section {
 }
 
 article {
-  margin: 1000px;
-  padding: 1000px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px;
 }
 
 h1 {
     display: inline-block;
-    font: arial,sans-serif;
+    font-family: arial,sans-serif;
     border: outset 5px #E6E2AF;
     border-radius: 5px;
     padding: 5px;
@@ -34,12 +37,36 @@ h2 {
   font-size: 24px;
   font-family: arial,sans-serif;
   color: #183152;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: arial,sans-serif;
+  color: #183152;
+}
+
+p.Stone-Gray-City {
+    background-color: gray;
+}
+
+.Pewter-City {
+  font-style: bold;
+  display: inline;
+}
 
 p {
     font-family: Georgia, Times, serif; font-size: 16px; font-style: normal; font-weight: 500;
 }
 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	font-family: arial, sans-serif;
 }
+
 nav a {
     display: inline-block;
     text-align: center;
