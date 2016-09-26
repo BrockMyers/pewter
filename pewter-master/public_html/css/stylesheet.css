@@ -1,7 +1,56 @@
+/*Author: Alex Kirkpatrick*/
+
+/*Color Scheme: Gradient Blues: #183152, #375D81,
+#ABC8E2, #C4D7ED, #E1E6FA*/
+
 body {
-    background-color: 3399CC;
+  background: #E8F8FF;
 }
+
+section {
+  background: #FFFFFF;
+  max-width: 800px;
+  padding: 5px;
+}
+
+article {
+  margin: 1000px;
+  padding: 1000px;
+}
+
+h1 {
+    display: inline-block;
+    font: arial,sans-serif;
+    border: outset 5px #E6E2AF;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #183152;
+    color: #E1E6FA;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+
+h2 {
+  font-size: 24px;
+  font-family: arial,sans-serif;
+  color: #183152;
 
 p {
     font-family: Georgia, Times, serif; font-size: 16px; font-style: normal; font-weight: 500;
+}
+
+}
+nav a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: small-caps;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    color: #E1E6FA;
+    background-color: #183152;
+    width: 125px;
+    padding: 5px;
+    margin: 5px;
+    border: outset 5px #E6E2AF;
 }
